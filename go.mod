@@ -1,3 +1,3 @@
-module github.com/unipos/unipos/generics
+module gogenerics
 
 go 1.18
