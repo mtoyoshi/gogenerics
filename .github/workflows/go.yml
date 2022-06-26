@@ -1,0 +1,13 @@
+name: Git Version
+
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Git Version
+        uses: codacy/git-version@2.2.0
